@@ -1,0 +1,223 @@
+/* Reset some default styles */
+body, figure, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set global font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 32px 48px;
+    gap: 32px;
+    position: relative;
+    width: 1453px;
+    height: 804px;
+    background: #FFFFFF;
+}
+
+/* Header styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+section ul li {
+    flex: 1 0 300px;
+    margin-right: 1rem;
+}
+
+section ul li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+/* About section styles */
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    margin-bottom: 0.5rem;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+h1 {
+    color: white;
+  }
+
+h2 {
+    color: white;
+    position: relative;
+
+  }
+  body {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .login-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  h2 {
+    color: #000;
+    text-align: center;
+  }
+  form {
+    margin-top: 20px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b69d1;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button[type="submit"]:hover {
+    background-color: #6c4eb2;
+  }
+  .social-login {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  h3 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .social-login a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .social-login img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
